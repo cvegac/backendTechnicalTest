@@ -1,16 +1,10 @@
 package com.thales.technicalTest;
 
-import com.thales.technicalTest.DTOs.EmployeeDTO;
-import com.thales.technicalTest.controllers.EmployeeController;
-import com.thales.technicalTest.models.Employee;
 import com.thales.technicalTest.services.SalaryCalculator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.MockitoAnnotations;
-
-import java.util.Arrays;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
